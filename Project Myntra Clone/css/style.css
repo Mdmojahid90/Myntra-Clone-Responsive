@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid #b6b1b1;
+}
+#logo{
+  margin-left: 4%;
+}
+#logo img{
+height: 45px;
+}
+.navbar{
+  width: 40%;
+  min-width: 500px;
+}
+.navbar ul{
+display: flex;
+justify-content: space-evenly;
+}
+.navbar ul li{
+  list-style: none;
+}
+.navbar ul li a{
+  font-size: 14px;
+  letter-spacing: .3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 28px 0;
+  /* border-bottom: 5px solid #ffffff; */
+}
+.navbar ul li a:hover{
+  border-bottom: 4px solid #f54e77;
+}
+.navbar ul li a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+/*   SearchBar   */
+.searchbar{
+  display: flex;
+  align-items:center;
+  width: 30%;
+  height: 40px;
+  min-width: 200px;
+}
+.searchlogo{
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+  background-color: #f5f5f6;
+  color: #282c3f;
+  font-weight: 300;
+}
+.searchbar input{
+   border: none; 
+  width: 100%;
+  border-radius: 0px 4px 4px 0px;
+  color: #696e79;
+  background-color: #f5f5f6;
+  height: 40px;
+}
+/* Action Bar */
+.actionbar{
+  margin-right: 4%;
+  width: 20%;
+  min-width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.actionname{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* Main Section */
+.banner_container{
+  margin: 3% 0px;
+}
+.banner_container img{
+  width: 100%;
+}
+.category_heading{
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+.category_items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.category_items img{
+  margin: 3px; 
+  /* width: 250px; */
+}
+
+/* Footer */
+.footer_container {
+  padding: 30px 0px 40px 0px;
+  background: #FAFBFC;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_column h3 {
+  color: #282c3f;
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+.footer_column a {
+  color: #696b79;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.copyright {
+  color: #94969f;
+  text-align: end;
+  padding: 15px;
+}
+
+
+/**********  items style  ***********/
+.items-container{
+/* width: 80%; */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.item-container{
+ width: 350px; 
+margin: 5px 0px; 
+}
+.item-img{
+  width: 100%;
+}
+.rating{
+  font-size: 12px;
+font-weight: 700;
+}
+.company-name{
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  color:#282c3f;
+  margin-bottom: 6px;
+   overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  }
+   .item-name{
+   color: #535766;
+    font-size: 14px;
+   line-height: 1;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-weight: 400;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+     white-space: nowrap;  
+    display: block; 
+  } 
+.price{
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #282c3f;
+  white-space: nowrap;
+}
+.current-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+}
+.original-price {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.discount {
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.btn-add-bag{
+margin-top: 8px;
+background-color: lightgreen;
+border:none;
+border-radius: 10px;
+width: 100%;
+font-size: 18px;
+padding: 5px 15px;
+cursor: pointer;
+}
+
+
+.bag-item-count {
+  background-color: #f16565;
+  color: #fff;
+  white-space: nowrap;
+  line-height: 18px;
+  padding: 0 6px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 12px;
+  position: relative;
+  left: 13px;
+  top: -44px;
+  cursor: pointer;
+}
+.actionbar a{
+  text-decoration: none;
+  color:black;
+}

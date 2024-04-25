@@ -1,0 +1,36 @@
+header{
+  flex-direction: column;
+  height: 600px;
+}
+
+.navbar ul{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul li a{
+  display: block;
+}
+.searchbar input{
+  width: 100%;
+}
+.actionbar{
+  margin:10px 0px;
+}
+.banner_container{
+  margin: 1%;
+}
+.category_heading{
+  font-size: 3rem;
+}
+.category_items{
+justify-content: center;
+}
+.footer_container{
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.footer_column{
+  margin-bottom: 20px
+}
